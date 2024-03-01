@@ -1,0 +1,68 @@
+html,body{
+    background-image: url("background-image/Sem\ Título-2.jpg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.page{
+    width: 500px;
+    height: 400px;
+    margin: 30px;
+    margin-top: 100px;
+    padding: 10px;
+    background-color: #80808044;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.295);
+}
+
+.page .logo{
+    width: 45%;
+    margin: 20px auto;
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    margin-left: 40%;
+}
+
+
+.userPhoto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: -25%;
+    margin-left: 3%;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.473);
+}
+
+.page h1{
+    margin-left: 43%;
+    margin-top: -10%;
+    font-size: 150%;
+}
+
+.page_txt {
+    margin-left: 5%;
+    margin-top: 10%;
+    line-height: 70%;
+}
+
+.page_txt p{
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 767px) {
+ 
+    .userPhoto {
+      width: 90px;
+      height:90px ; /* space used to manipulate image size when the site is used for mobile */
+  }
+}

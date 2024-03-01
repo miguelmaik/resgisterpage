@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Enterprise</title>
+    <link rel="shortcut icon" href="Assets/favicon.png" type="image/x-icon">
+    <!--Index project css file referring to the registration page-->
+    <link rel="stylesheet" href="css/register.css">
+    
+</head>
+<body>
+    <div class="register">
+        <img src="Assets/FakeEx-Logo-PNG.png" alt="logo">
+        <h1>REGISTER PAGE</h1>
+        <div class="container">
+            <p>Name: <input type="text" name="text" id="txt_name"></p>
+            <p>Age: <input type="number" name="num" id="num_age"></p>
+            <p>Sex: <select name="sex_option" id="sex_option">
+                <option value="Option">Options</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="trans">Transgender</option>
+                <option value="outers">Outers</option>
+            </select></p>
+            <p>Marital status: <select name="marital_status" id="marital_status">
+                <option value="options">Options</option>
+                <option value="single">Single</option>
+                <option value="married">Married</option>
+                <option value="divorced">Divorced</option>
+                <option value="widowed">Widowed</option>
+            </select></p>
+            <p>Choose a photo for your profile:
+                <input type="file" id="uploadFile" accept="image/*">
+            </p>
+            <p>E-mail: <input type="text" name="email" id="email"></p>
+                <p>Password:<input type="password" name="key" id="key"></p>
+                <p>Confirm Password: <input type="password" name="keyAgain" id="keyAgain"></p>
+                <a href="index.html"><button type="submit" onclick="return send()">Send</button></a>
+        </div>
+    </div>
+</body>
+<script src="JavaScript/register.js"></script>
+</html>
